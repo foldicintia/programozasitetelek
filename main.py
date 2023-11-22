@@ -29,10 +29,14 @@ feladatok.feladat3()
 feladatok.atlag()
 
 feladatok.szamok()
-""" 
+
 db: int = szovegkezeles.szokoz("Indul a kutya és a tyúk aludni - árvíztűrő tükörfúrógép")
 print(f"A szóközök száma: {db}")
 
 uj_szoveg: str = szovegkezeles.szokoz_nelkul("Indul a kutya és a tyúk aludni - árvíztűrő tükörfúrógép")
 print(f"A megadott szöveg szóközök nélkül: {uj_szoveg}")
-
+""" 
+szovegkezeles.hazi1()
+szovegkezeles.hazi2()
+szovegkezeles.hazi3()
+szovegkezeles.hazi4(54)

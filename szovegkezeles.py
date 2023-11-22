@@ -43,3 +43,40 @@ def kisbetus(uj_szoveg:str):
         print(szoveg[i], end= " ")
         i -= 1
 
+def hazi1():
+    # Számold meg, hogy hány darab 7-tel osztható szám van 1-1000 között!
+    print("1.feladat")
+    szamlalo = 0
+    for i in range(1, 1001, 1):
+        if i % 7 == 0:
+            szamlalo += 1
+    print(f"0 és 1000 között {szamlalo} darab 7-tel osztható szám van.")
+
+
+def hazi2():
+    # Számold meg, hogy hány darab 12-vel osztható szám van 2000-20000 között!
+    print("2.feladat")
+    szamlalo = 0
+    for i in range(2000, 20001, 1):
+        if i % 3 == 0 and i % 4 == 0:
+            szamlalo += 1
+    print(f"2000 és 20000 között {szamlalo} darab 12-vel osztható szám van.")
+
+def hazi3():
+    # Írd ki az első 20 3-mal osztható szám négyzetének összegét!
+    print("3.feladat")
+    i = 1
+    gyujto = 0
+    negyzet = 0
+    while i <= 20:
+        if i % 3 == 0:
+            negyzet = i ** 2
+            gyujto += negyzet
+        i += 1
+    print(f"Az első 20 3-mal osztható szám összege: {gyujto}")
+
+
+def hazi4(szam:int):
+    #4 Keresd meg egy szám egész osztóit!
+    print("4.feladat")
+    
